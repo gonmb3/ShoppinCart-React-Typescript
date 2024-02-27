@@ -1,0 +1,24 @@
+import { Container } from "react-bootstrap";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Store from "./pages/Store";
+import About from "./pages/About";
+import Navbar from "./components/Navbar";
+
+const App = () => {
+  return (
+    <>
+     <Navbar />
+      <Container className="mb-4">
+     
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tienda" element={<Store />} />
+          <Route path="/nosotros" element={<About />} />
+        </Routes>
+      </Container>
+    </>
+  );
+};
+
+export default App;
