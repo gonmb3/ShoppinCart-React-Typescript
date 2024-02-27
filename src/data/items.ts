@@ -1,4 +1,5 @@
-[
+
+const storeItems =[
     {
         "id": 1,
         "name":"Libro",
@@ -24,3 +25,5 @@
         "url":"/src/assets/imgs/cel.jpg"
     }
 ]
+
+export default storeItems

@@ -2,7 +2,7 @@ import { Offcanvas, Stack } from 'react-bootstrap'
 import { useShoppingCart } from '../context/cartContext'
 import CartItem from './CartItem'
 import { formatCurrency } from '../utils/CurrencyFormar'
-import storeItems from "../data/items.json"
+import storeItems from "../data/items"
 
 type ShoppingCartProps = {
     isOpenCart:boolean
